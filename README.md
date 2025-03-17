@@ -1,6 +1,6 @@
-# Semantic Search Beast: Fine-Tuned SBERT for Relevance Ranking
+# Semantic search in articles using NLP : Fine-Tuned SBERT for Relevance Ranking
 
-This repository hosts **Semantic Search Beast**, a high-performance semantic search model leveraging SBERT (`all-MiniLM-L6-v2`) fine-tuned on the Reuters corpus. Designed to rank articles by relevance to diverse user queries, this project was developed and optimized on a low-end laptop, showcasing cutting-edge NLP capabilities with minimal resources. The result is a fast, precise, and adaptable tool ready for real-world applications.
+This repository hosts **Semantic Search Model **, a high-performance semantic search model leveraging SBERT (`all-MiniLM-L6-v2`) fine-tuned on the Reuters corpus. Designed to rank articles by relevance to diverse user queries, this project was developed and optimized on a low-end laptop, showcasing cutting-edge NLP capabilities with minimal resources. The result is a fast, precise, and adaptable tool ready for real-world applications.
 
 The full implementation resides in `Semantic search in articles using NLP v2.ipynb`, with the fine-tuned model available as `reuters-sbert-semantic-search-model(5).zip`.
 
