@@ -18,6 +18,12 @@ The full implementation resides in `Semantic search in articles using NLP v2.ipy
     - **Mean Reciprocal Rank (MRR)**: 1.0—first relevant result consistently at rank 1.
     - **Recall@3**: 1.0—all relevant articles retrieved within the top 3.
     - **NDCG@3**: 1.0—perfect ranking order relative to relevance labels.
+    
+    - **MRR**: "How often the first result is correct."
+    -**Recall@3**: "How many relevant results are in the top 3."
+    - **NDCG@3**: "How well the top 3 results are ranked by relevance."
+
+     
   - **Robustness**: Achieved perfect scores (MRR, NDCG = 1.0) on diverse queries including slang-heavy topics (e.g., “dankest meme coin sh*tshow,” “trippiest alien tech drop,” “gnarliest pirate loot glitch”) and creative prompts (e.g., “quantum taco weirdness,” NDCG 0.983). Demonstrated a boundary at extreme nonsense queries (e.g., “flibber jabber wizzle pop,” MRR 0.33).
 - **Inference Speed**: Approximately 2–6 seconds per query on modest hardware, ensuring practical usability.
 
