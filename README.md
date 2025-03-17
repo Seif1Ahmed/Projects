@@ -72,12 +72,12 @@ jupyter notebook
 ```
 Open Semantic search in articles using NLP v2.ipynb and execute all cells to see the model rank the example sneaker query.
 
-``
+```
 **5.Custom Queries**:
 
     Modify the query and articles variables in the notebook to test your own inputs—results are computed and ranked in seconds.
-
-**Key Features**
+```
+## Key Features
 
 - **Resource Efficiency**: Developed and operational on a low-end laptop, demonstrating that advanced NLP is achievable without high-end hardware.  
 - **Contextual Accuracy**: Harnesses SBERT’s transformer-based embeddings to capture deep semantic relationships, excelling at slang, idioms, and nuanced queries.  
@@ -85,7 +85,7 @@ Open Semantic search in articles using NLP v2.ipynb and execute all cells to see
 
 
 
-**Development Process**
+## Development Process
 This project is a collaborative effort between me and Grok, an AI assistant.Together,we:
 
 Curated and fine-tuned SBERT on 1,000 Reuters query-article pairs, optimizing for semantic relevance using cosine similarity loss.
@@ -100,6 +100,6 @@ Seif Ahmed (Seif1ahmed1)—NLP Developer.
 Collaborator: Grok, AI assistant for code support, testing, and optimization.
 
 
- **Contact**
+ ## Contact
 
 For inquiries, feedback, or collaboration opportunities, contact Seif Ahmed via GitHub or email (seif911ahmed@gmail.com). Contributions, query experiments, and suggestions are encouraged!
