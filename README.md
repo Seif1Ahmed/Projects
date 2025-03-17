@@ -27,8 +27,8 @@ The full implementation resides in `Semantic search in articles using NLP v2.ipy
   - Contains the complete workflow: model loading, query encoding, article ranking, and evaluation with MRR, Recall@3, and NDCG@3 metrics.
   - **Example Output**:
 
-```markdown
-### Ranked Articles:
+
+## Ranked Articles:
 Rank 1: Yeezys dropped mad hype, bruh—sneaker gold., **Score:** ~0.55-0.65, **Label:** 1  
 Rank 2: Nike’s new kicks flex harder than ever., **Score:** ~0.45-0.55, **Label:** 1  
 Rank 3: Grandma’s slippers got some drip., **Score:** ~0.2-0.3, **Label:** 0.5  
@@ -37,7 +37,7 @@ Test MRR Score: 1.0
 Test Recall@3 Score: 1.0
 Test NDCG@3 Score: 1.0
 
-- **`reuters-sbert-semantic-search-model(5).zip`**:
+**`reuters-sbert-semantic-search-model(5).zip`**:
 - The fine-tuned SBERT model (~90MB)—unzip to `./reuters-sbert-semantic-search-model(5)` for use with the notebook.
 
 ## Setup and Usage
@@ -53,7 +53,7 @@ cd Projects
 ## 2.Install Dependencies:
 
 ## Requires Python 3.8+ and the following libraries:
-```bas
+```bash
 pip install sentence-transformers numpy torch
 
 ## 3.Prepare the Model:
