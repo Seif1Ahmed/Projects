@@ -26,7 +26,7 @@ The full implementation resides in `Semantic search in articles using NLP v2.ipy
 - **`Semantic search in articles using NLP v2.ipynb`**:
   - Contains the complete workflow: model loading, query encoding, article ranking, and evaluation with MRR, Recall@3, and NDCG@3 metrics.
     
-  - **Example Output**:
+**Example Output**:
 
 
 ### Ranked Articles:
