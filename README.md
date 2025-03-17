@@ -34,7 +34,6 @@ Rank 2: Nike’s new kicks flex harder than ever., **Score:** ~0.45-0.55, **Labe
 Rank 3: Grandma’s slippers got some drip., **Score:** ~0.2-0.3, **Label:** 0.5  
 Rank 4: Taxes ate my shoe budget., **Score:** ~0.1-0.2, **Label:** 0  
 
-
 - **`reuters-sbert-semantic-search-model(5).zip`**:
 - The fine-tuned SBERT model (~90MB)—unzip to `./reuters-sbert-semantic-search-model(5)` for use with the notebook.
 
@@ -43,7 +42,8 @@ Rank 4: Taxes ate my shoe budget., **Score:** ~0.1-0.2, **Label:** 0
 Follow these steps to replicate or extend the project:
 
 1. **Clone the Repository**:
-```bash
+
+bash
 git clone https://github.com/Seif1ahmed1/Projects.git
 cd Projects
 
@@ -72,7 +72,7 @@ Open Semantic search in articles using NLP v2.ipynb and execute all cells to see
 ## 5.Custom Queries:
 
     Modify the query and articles variables in the notebook to test your own inputs—results are computed and ranked in seconds.
-
+```
 ## Key Features
 
     Resource Efficiency: Developed and operational on a low-end laptop, demonstrating that advanced NLP is achievable without high-end hardware.
@@ -97,5 +97,3 @@ Author
 ## Contact
 
 For inquiries, feedback, or collaboration opportunities, contact Seif Ahmed via GitHub or email (seif911ahmed@gmail.com). Contributions, query experiments, and suggestions are encouraged!
-
-
