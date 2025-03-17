@@ -67,16 +67,18 @@ unzip reuters-sbert-semantic-search-model(5).zip
 
 ```
 4. **Run the Notebook**:
+
 ```bash
 jupyter notebook
+
 ```
 Open Semantic search in articles using NLP v2.ipynb and execute all cells to see the model rank the example sneaker query.
 
-```
+
 **5.Custom Queries**:
 
     Modify the query and articles variables in the notebook to test your own inputs—results are computed and ranked in seconds.
-```
+
 ## Key Features
 
 - **Resource Efficiency**: Developed and operational on a low-end laptop, demonstrating that advanced NLP is achievable without high-end hardware.  
