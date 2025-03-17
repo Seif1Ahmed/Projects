@@ -28,7 +28,7 @@ The full implementation resides in `Semantic search in articles using NLP v2.ipy
   - **Example Output**:
 
 
-## Ranked Articles:
+### Ranked Articles:
 Rank 1: Yeezys dropped mad hype, bruh—sneaker gold., **Score:** ~0.55-0.65, **Label:** 1  
 Rank 2: Nike’s new kicks flex harder than ever., **Score:** ~0.45-0.55, **Label:** 1  
 Rank 3: Grandma’s slippers got some drip., **Score:** ~0.2-0.3, **Label:** 0.5  
@@ -50,9 +50,9 @@ Follow these steps:
 git clone https://github.com/Seif1ahmed1/Projects.git
 cd Projects
 ```
-2.**Install Dependencies**:
+2. **Install Dependencies**:
 
-#Requires Python 3.8+ and the following libraries:
+**Requires Python 3.8+ and the following libraries:**
 
 ```bash
 pip install sentence-transformers numpy torch
@@ -66,13 +66,13 @@ Download reuters-sbert-semantic-search-model(5).zip from this repository extract
 unzip reuters-sbert-semantic-search-model(5).zip
 
 ```
-4.**Run the Notebook**:
+4. **Run the Notebook**:
 ```bash
 jupyter notebook
-
+```
 Open Semantic search in articles using NLP v2.ipynb and execute all cells to see the model rank the example sneaker query.
 
-```
+``
 **5.Custom Queries**:
 
     Modify the query and articles variables in the notebook to test your own inputs—results are computed and ranked in seconds.
@@ -86,8 +86,7 @@ Open Semantic search in articles using NLP v2.ipynb and execute all cells to see
 
 
 **Development Process**
-
-This project is a collaborative effort between me and Grok, an AI assistant . Together, we:
+This project is a collaborative effort between me and Grok, an AI assistant.Together,we:
 
 Curated and fine-tuned SBERT on 1,000 Reuters query-article pairs, optimizing for semantic relevance using cosine similarity loss.
 Conducted extensive testing with diverse, unconventional queries to validate robustness and identify limits (e.g., perfect scores on “dankest meme coin sh*tshow” to a drop at “flibber jabber wizzle pop”).
