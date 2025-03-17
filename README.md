@@ -25,6 +25,7 @@ The full implementation resides in `Semantic search in articles using NLP v2.ipy
 
 - **`Semantic search in articles using NLP v2.ipynb`**:
   - Contains the complete workflow: model loading, query encoding, article ranking, and evaluation with MRR, Recall@3, and NDCG@3 metrics.
+    
   - **Example Output**:
 
 
@@ -60,7 +61,7 @@ pip install sentence-transformers numpy torch
 ```
 3.**Prepare the Model**:
 
-Download reuters-sbert-semantic-search-model(5).zip from this repository extract it:
+Download `reuters-sbert-semantic-search-model(5).zip` from this repository and extract it:
 
 ```bash
 unzip reuters-sbert-semantic-search-model(5).zip
@@ -88,7 +89,7 @@ Open Semantic search in articles using NLP v2.ipynb and execute all cells to see
 
 
 ## Development Process
-This project is a collaborative effort between me and Grok, an AI assistant.Together,we:
+This project is a collaborative effort between me and Grok, an AI assistant. Together, we:
 
 Curated and fine-tuned SBERT on 1,000 Reuters query-article pairs, optimizing for semantic relevance using cosine similarity loss.
 Conducted extensive testing with diverse, unconventional queries to validate robustness and identify limits (e.g., perfect scores on “dankest meme coin sh*tshow” to a drop at “flibber jabber wizzle pop”).
