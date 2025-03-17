@@ -74,25 +74,24 @@ Open Semantic search in articles using NLP v2.ipynb and execute all cells to see
     Modify the query and articles variables in the notebook to test your own inputs—results are computed and ranked in seconds.
 ```
 ## Key Features
-
-    Resource Efficiency: Developed and operational on a low-end laptop, demonstrating that advanced NLP is achievable without high-end hardware.
-    Contextual Accuracy: Harnesses SBERT’s transformer-based embeddings to capture deep semantic relationships, excelling at slang, idioms, and nuanced queries.
-    Practical Performance: Delivers fast inference (~2–6 seconds/query), making it suitable for real-time applications with minimal latency.
+Resource Efficiency: Developed and operational on a low-end laptop, demonstrating that advanced NLP is achievable without high-end hardware.
+Contextual Accuracy: Harnesses SBERT’s transformer-based embeddings to capture deep semantic relationships, excelling at slang, idioms, and nuanced queries.
+Practical Performance: Delivers fast inference (~2–6 seconds/query), making it suitable for real-time applications with minimal latency.
 
 ## Development Process
 
 This project is a collaborative effort between me and Grok, an AI assistant . Together, we:
 
-    Curated and fine-tuned SBERT on 1,000 Reuters query-article pairs, optimizing for semantic relevance using cosine similarity loss.
-    Conducted extensive testing with diverse, unconventional queries to validate robustness and identify limits (e.g., perfect scores on “dankest meme coin sh*tshow” to a drop at “flibber jabber wizzle pop”).
-    Engineered the system for efficiency, ensuring training and inference fit within the constraints of a low-end laptop environment.
-    Iterated on code and evaluation metrics (MRR, Recall@3, NDCG@3) to produce a production-ready semantic search tool.
+Curated and fine-tuned SBERT on 1,000 Reuters query-article pairs, optimizing for semantic relevance using cosine similarity loss.
+Conducted extensive testing with diverse, unconventional queries to validate robustness and identify limits (e.g., perfect scores on “dankest meme coin sh*tshow” to a drop at “flibber jabber wizzle pop”).
+Engineered the system for efficiency, ensuring training and inference fit within the constraints of a low-end laptop environment.
+Iterated on code and evaluation metrics (MRR, Recall@3, NDCG@3) to produce a production-ready semantic search tool.
 
 Grok provided real-time guidance, code refinement, and creative input, while Seif drove the vision, implementation, and optimization—culminating in a model that balances power and accessibility.
 Author
 
-    Seif Ahmed (Seif1ahmed1)—NLP ENG.
-    Collaborator: Grok,AI assistant for code support, testing, and optimization.
+Seif Ahmed (Seif1ahmed1)—NLP ENG.
+sCollaborator: Grok,AI assistant for code support, testing, and optimization.
 
 ## Contact
 
