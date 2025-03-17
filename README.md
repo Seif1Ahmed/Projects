@@ -26,7 +26,7 @@ The full implementation resides in `Semantic search in articles using NLP v2.ipy
 - **`Semantic search in articles using NLP v2.ipynb`**:
   - Contains the complete workflow: model loading, query encoding, article ranking, and evaluation with MRR, Recall@3, and NDCG@3 metrics.
     
-**Example Output**:
+## Example Output
 
 
 ### Ranked Articles:
@@ -59,7 +59,7 @@ cd Projects
 pip install sentence-transformers numpy torch
 
 ```
-3.**Prepare the Model**:
+3. **Prepare the Model**:
 
 Download `reuters-sbert-semantic-search-model(5).zip` from this repository and extract it:
 
@@ -76,7 +76,7 @@ jupyter notebook
 Open Semantic search in articles using NLP v2.ipynb and execute all cells to see the model rank the example sneaker query.
 
 
-**5.Custom Queries**:
+5. **Custom Queries**:
 
     Modify the query and articles variables in the notebook to test your own inputs—results are computed and ranked in seconds.
 
